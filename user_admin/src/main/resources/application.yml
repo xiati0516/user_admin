@@ -4,11 +4,12 @@ spring:
     name: user_admin
   # 配置druid数据源——需要根据实际配置进行修改
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/db_user_admin?useUnicode=true&serverTimezone=UTC&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true
-    username: root
-    password: root
+     driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://pc-bp1see488eb499zp9.rwlb.rds.aliyuncs.com
+    username: dlxt
+    password: 88888888@d
     type: com.alibaba.druid.pool.DruidDataSource
+
 
     # druid 数据源专有配置
     initialSize: 5
